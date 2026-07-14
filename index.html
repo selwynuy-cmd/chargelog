@@ -499,7 +499,7 @@
       <div id="planner-results"></div>
 
       <div class="planner-note" id="planner-dc-note" style="display:none;">
-        ⚡ Taper above 80%: both AC and DC charging slow down significantly above 80% SOC to protect the LFP cells. DC drops from ~82.6 kW to ~25 kW; AC drops from ~6.3 kW to ~3.5 kW. The last 20% takes disproportionately longer — plan accordingly.
+        ⚡ DC taper above 80%: DC drops from ~82.6 kW to ~25 kW above 80% SOC — confirmed by real session data. AC taper above 95%: AC maintains full ~6.3 kW all the way to 95% SOC (LFP chemistry holds the constant-current phase much longer than other battery types), then drops to ~3.5 kW for the final 95→100% push.
       </div>
 
       <div class="planner-note" style="margin-top:8px;">
@@ -641,26 +641,26 @@
 {"id": "hist-7", "date": "2026-02-05", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 5.78, "cost": 200, "creditsUsed": 0, "pctBefore": 63, "pctAfter": 70, "estimated": true, "approxDate": true, "odometerKm": 186, "driveMode": "standard"},
 {"id": "hist-10", "date": "2026-02-12", "vehicle": "BYD Seal Performance", "locationType": "home", "note": "", "kwh": 26.6, "cost": 380.38, "creditsUsed": 0, "pctBefore": 25, "pctAfter": 54, "estimated": false, "approxDate": false, "odometerKm": 300, "driveMode": "sport"},
 {"id": "hist-12", "date": "2026-02-14", "vehicle": "BYD Seal Performance", "locationType": "home", "note": "", "kwh": 28.3, "cost": 404.69, "creditsUsed": 0, "pctBefore": 46, "pctAfter": 76, "estimated": false, "approxDate": false, "odometerKm": 319, "driveMode": "mixed"},
-{"id": "hist-14", "date": "2026-03-11", "vehicle": "BYD Seal Performance", "locationType": "home", "note": "", "kwh": 85.0, "cost": 1215.50, "creditsUsed": 0, "pctBefore": 10, "pctAfter": 100, "estimated": false, "approxDate": false, "odometerKm": 502, "driveMode": "eco"},
+{"id": "hist-14", "date": "2026-03-11", "vehicle": "BYD Seal Performance", "locationType": "home", "note": "", "kwh": 85.0, "cost": 1215.5, "creditsUsed": 0, "pctBefore": 10, "pctAfter": 100, "estimated": false, "approxDate": false, "odometerKm": 502, "driveMode": "eco"},
 {"id": "hist-16", "date": "2026-03-18", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 14.03, "cost": 0, "creditsUsed": 500.0, "pctBefore": 71, "pctAfter": 88, "estimated": true, "approxDate": false, "odometerKm": 590, "driveMode": "eco"},
 {"id": "hist-18", "date": "2026-03-24", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 14.85, "cost": 0, "creditsUsed": 500.0, "pctBefore": 69, "pctAfter": 87, "estimated": true, "approxDate": false, "odometerKm": 654, "driveMode": "eco"},
-{"id": "hist-20", "date": "2026-03-28", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility — promo (amount not recorded)", "kwh": 26.4, "cost": 0, "creditsUsed": 0, "pctBefore": 61, "pctAfter": 93, "estimated": true, "approxDate": false, "odometerKm": 737, "driveMode": "eco"},
+{"id": "hist-20", "date": "2026-03-28", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility \u2014 promo (amount not recorded)", "kwh": 26.4, "cost": 0, "creditsUsed": 0, "pctBefore": 61, "pctAfter": 93, "estimated": true, "approxDate": false, "odometerKm": 737, "driveMode": "eco"},
 {"id": "hist-22", "date": "2026-04-09", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 26.4, "cost": 0, "creditsUsed": 900.0, "pctBefore": 49, "pctAfter": 81, "estimated": true, "approxDate": false, "odometerKm": 860, "driveMode": "eco"},
-{"id": "hist-24", "date": "2026-04-18", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 5.78, "cost": 0, "creditsUsed": 200.0, "pctBefore": 55, "pctAfter": 62, "estimated": true, "approxDate": false, "odometerKm": 944, "driveMode": "eco"},
+{"id": "hist-24", "date": "2026-04-18", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 7.018, "cost": 0, "creditsUsed": 100.0, "pctBefore": 55, "pctAfter": 62, "estimated": false, "approxDate": false, "odometerKm": 944, "driveMode": "eco"},
 {"id": "hist-26", "date": "2026-04-21", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 26.4, "cost": 0, "creditsUsed": 898.0, "pctBefore": 51, "pctAfter": 83, "estimated": true, "approxDate": false, "odometerKm": 975, "driveMode": "eco"},
 {"id": "hist-28", "date": "2026-04-25", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 7.42, "cost": 0, "creditsUsed": 250.0, "pctBefore": 64, "pctAfter": 73, "estimated": true, "approxDate": false, "odometerKm": 1028, "driveMode": "eco"},
 {"id": "hist-30", "date": "2026-04-26", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 13.2, "cost": 0, "creditsUsed": 437.0, "pctBefore": 67, "pctAfter": 83, "estimated": true, "approxDate": false, "odometerKm": 1050, "driveMode": "eco"},
-{"id": "hist-32", "date": "2026-05-02", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 22.28, "cost": 0, "creditsUsed": 640.0, "pctBefore": 52, "pctAfter": 79, "estimated": true, "approxDate": false, "odometerKm": 1133, "driveMode": "normal"},
-{"id": "hist-34", "date": "2026-05-09", "vehicle": "BYD Seal Performance", "locationType": "evrodc", "note": "AC Mobility — DC charging", "kwh": 13.2, "cost": 0, "creditsUsed": 473.0, "pctBefore": 54, "pctAfter": 70, "estimated": true, "approxDate": false, "odometerKm": 1205, "driveMode": "normal"},
+{"id": "hist-32", "date": "2026-05-02", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 25.938, "cost": 0, "creditsUsed": 639.23, "pctBefore": 52, "pctAfter": 79, "estimated": false, "approxDate": false, "odometerKm": 1133, "driveMode": "normal"},
+{"id": "hist-34", "date": "2026-05-09", "vehicle": "BYD Seal Performance", "locationType": "evrodc", "note": "AC Mobility \u2014 DC charging", "kwh": 13.2, "cost": 0, "creditsUsed": 473.0, "pctBefore": 54, "pctAfter": 70, "estimated": true, "approxDate": false, "odometerKm": 1205, "driveMode": "normal"},
 {"id": "hist-36", "date": "2026-05-12", "vehicle": "BYD Seal Performance", "locationType": "other", "note": "BYD Showroom (dealer, free)", "kwh": 7.42, "cost": 0, "creditsUsed": 0.0, "pctBefore": 52, "pctAfter": 61, "estimated": true, "approxDate": false, "odometerKm": 1255, "driveMode": "normal"},
-{"id": "hist-37", "date": "2026-05-12", "vehicle": "BYD Seal Performance", "locationType": "evrodc", "note": "AC Mobility — DC charging", "kwh": 10.72, "cost": 0, "creditsUsed": 400.0, "pctBefore": 61, "pctAfter": 74, "estimated": true, "approxDate": false, "odometerKm": null, "driveMode": null},
+{"id": "hist-37", "date": "2026-05-12", "vehicle": "BYD Seal Performance", "locationType": "evrodc", "note": "AC Mobility \u2014 DC charging", "kwh": 10.72, "cost": 0, "creditsUsed": 400.0, "pctBefore": 61, "pctAfter": 74, "estimated": true, "approxDate": false, "odometerKm": null, "driveMode": null},
 {"id": "hist-39", "date": "2026-05-20", "vehicle": "BYD Seal Performance", "locationType": "home", "note": "", "kwh": 9.9, "cost": 141.57, "creditsUsed": 0, "pctBefore": 40, "pctAfter": 50, "estimated": false, "approxDate": false, "odometerKm": 1343, "driveMode": "normal"},
-{"id": "hist-41", "date": "2026-05-29", "vehicle": "BYD Seal Performance", "locationType": "evrodc", "note": "AC Mobility — DC charging", "kwh": 56.1, "cost": 0, "creditsUsed": 2100.0, "pctBefore": 16, "pctAfter": 84, "estimated": true, "approxDate": false, "odometerKm": 1435, "driveMode": "normal"},
-{"id": "hist-43", "date": "2026-06-10", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 51.98, "cost": 0, "creditsUsed": 1700.0, "pctBefore": 26, "pctAfter": 89, "estimated": true, "approxDate": false, "odometerKm": 1591, "driveMode": "normal"},
+{"id": "hist-41", "date": "2026-05-29", "vehicle": "BYD Seal Performance", "locationType": "evrodc", "note": "AC Mobility \u2014 DC charging", "kwh": 60.0, "cost": 0, "creditsUsed": 2100.0, "pctBefore": 16, "pctAfter": 84, "estimated": false, "approxDate": false, "odometerKm": 1435, "driveMode": "normal"},
+{"id": "hist-43", "date": "2026-06-10", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility", "kwh": 59.649, "cost": 0, "creditsUsed": 1700.0, "pctBefore": 26, "pctAfter": 89, "estimated": false, "approxDate": false, "odometerKm": 1591, "driveMode": "normal"},
 {"id": "hist-45", "date": "2026-06-14", "vehicle": "BYD Seal Performance", "locationType": "home", "note": "", "kwh": 81.7, "cost": 1168.31, "creditsUsed": 0, "pctBefore": 9, "pctAfter": 100, "estimated": false, "approxDate": false, "odometerKm": 1839, "driveMode": "sport"},
-{"id": "hist-48", "date": "2026-06-20", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility — Ayala Feliz", "kwh": 5.78, "cost": 0, "creditsUsed": 200.0, "pctBefore": 56, "pctAfter": 63, "estimated": true, "approxDate": false, "odometerKm": 1977, "driveMode": "mixed"},
-{"id": "hist-50", "date": "2026-06-26", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility — SEDA Hotel BGC", "kwh": 29.7, "cost": 0, "creditsUsed": 1000.0, "pctBefore": 47, "pctAfter": 83, "estimated": true, "approxDate": false, "odometerKm": 2017, "driveMode": "normal"},
-{"id": "hist-52", "date": "2026-07-08", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility — SEDA Hotel BGC", "kwh": 29.7, "cost": 0, "creditsUsed": 1000.0, "pctBefore": 44, "pctAfter": 80, "estimated": true, "approxDate": false, "odometerKm": 2128, "driveMode": "normal"}
+{"id": "hist-48", "date": "2026-06-20", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility \u2014 Ayala Feliz", "kwh": 7.018, "cost": 0, "creditsUsed": 200.0, "pctBefore": 56, "pctAfter": 63, "estimated": false, "approxDate": false, "odometerKm": 1977, "driveMode": "mixed"},
+{"id": "hist-50", "date": "2026-06-26", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility \u2014 SEDA Hotel BGC", "kwh": 35.088, "cost": 0, "creditsUsed": 1000.0, "pctBefore": 47, "pctAfter": 83, "estimated": false, "approxDate": false, "odometerKm": 2017, "driveMode": "normal"},
+{"id": "hist-52", "date": "2026-07-08", "vehicle": "BYD Seal Performance", "locationType": "evroac", "note": "AC Mobility \u2014 SEDA Hotel BGC", "kwh": 35.088, "cost": 0, "creditsUsed": 1000.0, "pctBefore": 44, "pctAfter": 80, "estimated": false, "approxDate": false, "odometerKm": 2128, "driveMode": "normal"}
   ];
   const HISTORICAL_VEHICLE_CAP = { 'BYD Seal Performance': 82.5 };
 
@@ -978,9 +978,9 @@
   const DC_MAX_CHARGER_KW = 87; // DC charger-side cap: 87kW × 95% = 82.6kW to battery = ~30min 30→80%
   const DC_EFFICIENCY = 0.95;   // DC path loss (~5%)
   const DC_TAPER_KW = 25;       // Effective battery-side rate above 80% SOC (DC)
-  const AC_TAPER_KW = 3.5;      // AC also tapers above 80%: ~3.5kW effective (half of 6.3kW normal rate)
+  const AC_TAPER_KW = 3.5;      // AC tapers above 95% SOC (LFP holds CC phase until ~95%)
   const DC_TAPER_THRESHOLD = 80;
-  const AC_TAPER_THRESHOLD = 80;
+  const AC_TAPER_THRESHOLD = 95;  // Confirmed by receipts: full 6.3kW rate still at 81-87% SOC
 
   function estimateTime(currentPct, targetPct, chargerKw, isDC, cap){
     if(targetPct <= currentPct) return { minutes: 0, hasTaper: false, effectiveKw: 0 };

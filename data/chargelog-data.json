@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T07:52:38.832Z",
+  "updatedAt": "2026-07-24T06:39:38.718Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -432,6 +432,22 @@
       "pctBefore": 77,
       "pctAfter": 90,
       "odometerKm": 2243,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mrykli3e7wot8",
+      "date": "2026-07-24",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "Ayala Triangle Gardens",
+      "kwh": 10.742,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 300,
+      "pctBefore": 79,
+      "pctAfter": 90,
+      "odometerKm": 2273,
       "driveMode": "normal"
     }
   ],

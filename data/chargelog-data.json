@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T11:59:26.275Z",
+  "updatedAt": "2026-08-18T13:45:56.288Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -464,6 +464,22 @@
       "pctBefore": 48,
       "pctAfter": 74,
       "odometerKm": 2410,
+      "driveMode": "normal"
+    },
+    {
+      "id": "msypu0jknutss",
+      "date": "2026-08-18",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "publicfree",
+      "note": "Robinson Galleria",
+      "kwh": 22.25,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 0,
+      "pctBefore": 51,
+      "pctAfter": 74,
+      "odometerKm": 2479,
       "driveMode": "normal"
     }
   ],

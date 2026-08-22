@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T13:45:56.288Z",
+  "updatedAt": "2026-08-22T14:34:51.944Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -480,6 +480,22 @@
       "pctBefore": 51,
       "pctAfter": 74,
       "odometerKm": 2479,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mt4hccdd1d82a",
+      "date": "2026-08-22",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "SEDA Hotel BGC",
+      "kwh": 32.43,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 924.2,
+      "pctBefore": 53,
+      "pctAfter": 87,
+      "odometerKm": 2552,
       "driveMode": "normal"
     }
   ],

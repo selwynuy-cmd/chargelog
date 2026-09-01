@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T13:06:08.692Z",
+  "updatedAt": "2026-09-01T01:23:14.543Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -528,6 +528,22 @@
       "pctBefore": 62,
       "pctAfter": 84,
       "odometerKm": 2704,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mthzgtta80x9v",
+      "date": "2026-09-01",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "BYD Manila Bay",
+      "kwh": 6.97,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 198.65,
+      "pctBefore": 72,
+      "pctAfter": 79,
+      "odometerKm": 2747,
       "driveMode": "normal"
     }
   ],

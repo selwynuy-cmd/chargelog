@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T01:23:14.543Z",
+  "updatedAt": "2026-09-20T22:46:50.315Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -544,6 +544,22 @@
       "pctBefore": 72,
       "pctAfter": 79,
       "odometerKm": 2747,
+      "driveMode": "normal"
+    },
+    {
+      "id": "muaeoq8779yqr",
+      "date": "2026-09-20",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "home",
+      "note": "",
+      "kwh": 85.8,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 0,
+      "pctBefore": 6,
+      "pctAfter": 100,
+      "odometerKm": 2897,
       "driveMode": "normal"
     }
   ],

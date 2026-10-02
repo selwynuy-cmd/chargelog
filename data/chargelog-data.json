@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T03:18:35.676Z",
+  "updatedAt": "2026-10-02T14:33:48.497Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -576,6 +576,22 @@
       "pctBefore": 34,
       "pctAfter": 82,
       "odometerKm": 3124,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mur2cwr466mi8",
+      "date": "2026-10-02",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "Ayala Manila Bay",
+      "kwh": 6.78,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 193.46,
+      "pctBefore": 49,
+      "pctAfter": 55,
+      "odometerKm": 3225,
       "driveMode": "normal"
     }
   ],

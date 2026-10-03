@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T14:33:48.497Z",
+  "updatedAt": "2026-10-03T14:59:14.355Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -592,6 +592,22 @@
       "pctBefore": 49,
       "pctAfter": 55,
       "odometerKm": 3225,
+      "driveMode": "normal"
+    },
+    {
+      "id": "musipgrtn2vjz",
+      "date": "2026-10-03",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "Ayala Greenbelt 3",
+      "kwh": 26.78,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 763.34,
+      "creditsUsed": 0,
+      "pctBefore": 49,
+      "pctAfter": 77,
+      "odometerKm": 3249,
       "driveMode": "normal"
     }
   ],

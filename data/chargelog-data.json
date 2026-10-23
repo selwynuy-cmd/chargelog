@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T04:08:28.480Z",
+  "updatedAt": "2026-10-23T06:26:07.507Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -672,6 +672,22 @@
       "pctBefore": 63,
       "pctAfter": 85,
       "odometerKm": 3643,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mvkl6mtvre20x",
+      "date": "2026-10-23",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "Starbucks Metropoli",
+      "kwh": 3.48,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 105,
+      "pctBefore": 48,
+      "pctAfter": 51,
+      "odometerKm": 3749,
       "driveMode": "normal"
     }
   ],

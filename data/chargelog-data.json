@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T06:26:07.507Z",
+  "updatedAt": "2026-11-09T09:36:34.110Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -688,6 +688,22 @@
       "pctBefore": 48,
       "pctAfter": 51,
       "odometerKm": 3749,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mw92h0zhjp4ch",
+      "date": "2026-11-09",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "Ayala 30th",
+      "kwh": 32.02,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 995.81,
+      "pctBefore": 25,
+      "pctAfter": 57,
+      "odometerKm": 3807,
       "driveMode": "normal"
     }
   ],

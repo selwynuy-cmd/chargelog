@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T09:36:34.110Z",
+  "updatedAt": "2026-11-10T05:15:25.191Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -705,6 +705,22 @@
       "pctAfter": 57,
       "odometerKm": 3807,
       "driveMode": "normal"
+    },
+    {
+      "id": "mwa8l1fg4r8sd",
+      "date": "2026-11-10",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "Ayala Glorietta 4",
+      "kwh": 29.3,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 907,
+      "pctBefore": 53,
+      "pctAfter": 83,
+      "odometerKm": 3822,
+      "driveMode": null
     }
   ],
   "vehicles": {

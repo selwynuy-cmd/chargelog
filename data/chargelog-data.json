@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T04:26:15.661Z",
+  "updatedAt": "2026-11-22T04:03:33.206Z",
   "sessions": [
     {
       "id": "hist-3",
@@ -736,6 +736,22 @@
       "pctBefore": 60,
       "pctAfter": 83,
       "odometerKm": 3881,
+      "driveMode": "normal"
+    },
+    {
+      "id": "mwrbauaewgfej",
+      "date": "2026-11-22",
+      "vehicle": "BYD Seal Performance",
+      "locationType": "evroac",
+      "note": "BYD Bacoor",
+      "kwh": 33.55,
+      "estimated": false,
+      "approxDate": false,
+      "cost": 0,
+      "creditsUsed": 956.35,
+      "pctBefore": 31,
+      "pctAfter": 66,
+      "odometerKm": 4049,
       "driveMode": "normal"
     }
   ],
